@@ -4,7 +4,7 @@ import { Menu, X } from 'lucide-react';
 import clsx from 'clsx';
 
 const navLinks = [
-  { id: 1, text: 'Home', link: '#home' },
+  { id: 1, text: 'Home', link: '/' },
   { id: 2, text: 'About Us', link: '#about_us' },
   { id: 3, text: 'Explore Foods', link: '#explore' },
   { id: 4, text: 'Reviews', link: '#reviews' },
