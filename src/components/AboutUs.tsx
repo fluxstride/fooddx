@@ -88,7 +88,7 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="bg-[url('/src/assets/cruisant.png')] py-28 bg-cover bg-center text-center px-6">
+      <div className="bg-[url('/src/assets/cruisant.png')] py-28 bg-cover bg-center text-center px-6 mt-8">
         <h2 className="text-orange-500 text-4xl lg:w-[50%] mx-auto">
           When a man's stomach is full it makes no difference whether he is rich
           or poor.
