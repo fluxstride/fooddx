@@ -41,7 +41,7 @@ const FoodItem = ({
   <div>
     <img src={image} alt="Spagetti" />
     <h3 className="mt-6 font-bold">{name}</h3>
-    <p className="mt-1 text-black/70">{time}</p>
+    <p className="mt-1 text-black/70 text-sm">{time}</p>
 
     <div className="mt-4 text-2xl space-x-4">
       <span className="text-orange-500">{price.discounted}</span>
@@ -61,7 +61,7 @@ const FoodItem = ({
 );
 
 const FoodItemList = () => (
-  <div className="mt-20 grid grid-cols-[repeat(auto-fit,minmax(250px,_1fr))] gap-y-16 lg:gap">
+  <div className="mt-20 grid grid-cols-[repeat(auto-fit,minmax(250px,_1fr))] gap-16">
     {foodItems.map(({ id, image, name, time, price }) => (
       <FoodItem {...{ image, name, time, price }} key={id} />
     ))}
