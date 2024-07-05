@@ -61,7 +61,7 @@ const FoodItem = ({
 );
 
 const FoodItemList = () => (
-  <div className="mt-20 grid grid-cols-[repeat(auto-fit,minmax(250px,_1fr))] gap-y-16 lg:gap">
+  <div className="mt-20 grid grid-cols-[repeat(auto-fit,minmax(250px,_1fr))] gap-16">
     {foodItems.map(({ id, image, name, time, price }) => (
       <FoodItem {...{ image, name, time, price }} key={id} />
     ))}
