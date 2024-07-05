@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <>
       <div
-        className="px-6 py-8 max-w-7xl mx-auto lg:mt-10 space-y-28"
+        className="px-6 py-20 lg:py-24 max-w-7xl mx-auto space-y-24"
         id="about_us"
       >
         <div className="flex flex-col lg:flex-row gap-12 lg:items-center">
@@ -84,11 +84,11 @@ const AboutUs = () => {
           <img
             src={leaf}
             alt="leave"
-            className="absolute -top-40 right-0 w-60 -z-10 lg:z-auto lg:w-80 lg:-top-60"
+            className="absolute -top-40 right-0 w-44 -z-10 lg:z-auto lg:w-80 lg:-top-60"
           />
         </div>
       </div>
-      <div className="bg-[url('/src/assets/cruisant.png')] py-28 bg-cover bg-center text-center px-6 mt-8">
+      <div className="bg-[url('/src/assets/cruisant.png')] px-6 py-20 lg:py-24 bg-cover bg-center text-center">
         <h2 className="text-orange-500 text-4xl lg:w-[50%] mx-auto">
           When a man's stomach is full it makes no difference whether he is rich
           or poor.
@@ -105,7 +105,6 @@ const AboutUs = () => {
         >
           <Youtube />
           <p className="font-bold">Watch Our Story</p>
-          <div></div>
         </a>
       </div>
     </>
