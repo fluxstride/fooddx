@@ -30,7 +30,7 @@ const metricsList = metrics.map((metric, index) => (
 const Metrics = () => {
   return (
     <div className="bg-orange-500 mt-8">
-      <div className="px-6 py-8 max-w-7xl mx-auto flex flex-col gap-10 lg:flex-row justify-around">
+      <div className="px-6 py-14 max-w-7xl mx-auto flex flex-col gap-10 lg:flex-row justify-around">
         {metricsList}
       </div>
     </div>
